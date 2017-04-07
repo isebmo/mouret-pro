@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Seb's blog
 subtitle:
 description:
-author: John Doe
-language:
+author: Sébastien MOURET
+language: fr
 timezone:
 
 # URL
@@ -31,7 +31,7 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link: false # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-mouret
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

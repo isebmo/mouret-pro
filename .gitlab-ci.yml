@@ -1,4 +1,4 @@
-image: node:6.9.0
+image: node:latest
 
 cache:
   paths:
@@ -7,12 +7,12 @@ cache:
 pages:
   stage: deploy
   script:
-  - npm cache clean
-  - npm install hexo-cli -g
-  - npm install
-  - npm run build
+    - npm cache clean
+    - npm install hexo-cli -g
+    - npm install
+    - npm run build
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
