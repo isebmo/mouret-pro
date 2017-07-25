@@ -8,8 +8,14 @@
     <!-- Date and Author -->
     <p class="blog-post-meta">
         <%= item.date.format(config.date_format) %>
-        <% if(item.author) { %>
-        by <%- item.author %>
-        <% } %>
+            <% if(item.author) { %>
+                by
+                <%- item.author %>
+                    <% } %>
     </p>
+    <% if(item.meta && item.meta.desc) { %>
+        <%- item.meta.desc %>
+            <% } else { %>
+                <%- item.content.substring(0, 200) %>
+                    <% } %>
 </li>
