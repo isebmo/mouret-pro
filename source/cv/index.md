@@ -4,10 +4,10 @@ title: cv
 date: 2017-04-07 11:01:03
 ---
 # Présentation
-Architecte Web - 33 ans
+Architecte Web
 
-Mail : sebastien@mouret.pro
-Tél : 0679197562
+Mail : <a href="mailto:sebastien@mouret.pro">sebastien@mouret.pro</a>
+Tél : <a href="tel:0679197562">0679197562</a>
 
 Spécialiste JEE / Javascript, je suis capable de concevoir des applications web à partir d’un besoin client, depuis sa phase de maquettage (UX/UI), jusqu’à l’intégration, le test et sa livraison. Je travaille dans des équipes en mode Agile avec un maximum de pratiques DevOps.
 # Expériences
