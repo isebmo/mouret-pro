@@ -1,0 +1,21 @@
+.articles-item {
+    display: block;
+    padding: 1rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .04);
+    transition: box-shadow .3s ease-in-out;
+    background-color: #fff;
+    border-radius: 2px;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+#posts {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-post {
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+}

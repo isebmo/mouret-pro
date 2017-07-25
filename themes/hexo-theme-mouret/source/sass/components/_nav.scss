@@ -1,11 +1,14 @@
 #main-nav {
   ul {
     display: flex;
+    justify-content: space-around;
     a {
       display: block;
       padding: 0 1em;
       border-radius: 2em;
       line-height: 2;
+      color: white;
+      text-decoration: none;
     }
   }
 }

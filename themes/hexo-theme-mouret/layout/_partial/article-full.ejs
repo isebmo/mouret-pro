@@ -1,4 +1,4 @@
-<div class="blog-post">
+<section class="blog-post">
     <!-- Title -->
     <h2 class="blog-post-title">
         <a href="<%- config.root %><%- item.path %>">
@@ -14,8 +14,7 @@
     </p>
     <!-- Content -->
     <%- item.content %>
-    <hr />
     <!-- Tags and Categories links -->
     <%- partial('article-tags', {item: item}) %>
     <%- partial('article-categories', {item: item}) %>
-</div>
+</section>

@@ -1,12 +1,10 @@
-<html>
-<!-- Head tag -->
-<%- partial('_partial/head') %>
-<%- partial('_partial/header') %>
+<html<%= config.language ? " lang=" + config.language.substring(0, 2) : "" %> >
+    <!-- Head tag -->
+    <%- partial('_partial/head') %>
+        <%- partial('_partial/header') %>
 
-<section>
     <%- body %>
-</section>
 
-<%- partial('_partial/footer') %>
+    <%- partial('_partial/footer') %>
 
 </html>

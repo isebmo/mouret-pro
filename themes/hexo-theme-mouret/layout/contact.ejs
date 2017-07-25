@@ -1,0 +1,20 @@
+<section id="contact">
+    <h1>Formulaire de contact</h1>
+    <i>Si vous avez une question n'hésitez pas à utiliser le formulaire, j'y répondrai le plus rapidement possible.</i>
+    <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
+        <p class="is-hidden">
+            <label>Don’t fill this out: <input name="bot-field"></label>
+        </p>
+        <p>
+            <label class="visually-hidden" for="email">Votre Email: </label>
+            <input id="email" placeholder="Votre Email" type="text" name="name">
+        </p>
+        <p>
+            <label class="visually-hidden" for="msg">Message: </label>
+            <textarea id="msg" placeholder="Votre message..." name="message"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Envoyer">
+        </p>
+    </form>
+</section>

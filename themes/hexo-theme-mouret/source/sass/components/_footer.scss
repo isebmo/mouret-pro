@@ -1,13 +1,15 @@
 footer {
-  background-color: #000;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
+  clip-path: polygon(0 0, 100% 2.5em, 100% 100%, 0 100%);
+  background-color: #eee;
+  height: 9rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 0;
   bottom: 0;
-  color: #fff;
+  right: 0;
   a {
     color: #4ab4dc;
   }
