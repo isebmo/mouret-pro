@@ -1,8 +1,12 @@
 <nav id="main-nav">
     <ul class="unstyled">
-        <li><a href="<%- config.root + 'cv' %>">CV</a></li>
-        <li><a href="<%- config.root + 'blog' %>">Blog</a></li>
-        <li><a href="<%- config.root + 'contact' %>">Contact</a></li>
+        <li class="<% if(path.indexOf('cv') > -1) { %> <%= 'active' %> <% } %>"><a href="<%- config.root + 'cv' %>">CV</a></li>
+        <li class="<% if(path.indexOf('blog') > -1) { %>
+            <%= 'active' %>
+                <% } %>"><a href="<%- config.root + 'blog' %>">Blog</a></li>
+        <li class="<% if(path.indexOf('contact') > -1) { %>
+            <%= 'active' %>
+                <% } %>"><a href="<%- config.root + 'contact' %>">Contact</a></li>
         <li>
             <a href="https://github.com/isebmo"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;</a>
         </li>

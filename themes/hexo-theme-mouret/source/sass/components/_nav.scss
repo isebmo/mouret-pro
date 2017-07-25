@@ -10,5 +10,8 @@
       color: white;
       text-decoration: none;
     }
+    li.active {
+      border-bottom: solid 1px orange;
+    }
   }
 }
