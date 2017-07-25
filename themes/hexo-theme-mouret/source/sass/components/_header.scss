@@ -1,0 +1,8 @@
+header {
+    &.header-main {
+        display: block;
+        text-align: center;
+        background-color: darkred;
+        clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
+    }
+}
