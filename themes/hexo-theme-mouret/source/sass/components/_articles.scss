@@ -16,6 +16,18 @@
 
 .blog-post {
     text-align: justify;
-    max-width: 600px;
-    margin: 0 auto;
+}
+
+.blog-post-title {
+    border-bottom: 1px solid #ff8d00;
+    color: #ff8d00;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.blog-post-meta {
+    color: grey;
+    font-style: italic;
 }
