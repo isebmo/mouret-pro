@@ -7,7 +7,6 @@ cache:
 pages:
   stage: deploy
   script:
-    - npm cache clean
     - npm install hexo-cli -g
     - npm install
     - npm run build
