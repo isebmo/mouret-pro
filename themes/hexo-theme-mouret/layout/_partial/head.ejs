@@ -4,4 +4,10 @@
     <%- css('css/style.css') %>
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
     <title><%- config.title %></title>
+    <% if (theme.rss){ %>
+        <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+    <% } %>
+    <% if (theme.favicon){ %>
+        <link rel="icon" href="<%- theme.favicon %>">
+    <% } %>
 </head>
