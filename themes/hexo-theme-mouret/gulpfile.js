@@ -36,18 +36,23 @@ var files = {
     js: [],
     images: [],
     svgs: [],
-    clean: [
-    ]
+    clean: []
 };
 // Compile Our Sass
 gulp.task('compileSass', function () {
     return gulp.src(files.sass)
-        .pipe(sass({ style: 'expanded', quiet: true, cacheLocation: '.sass-cache' }))
+        .pipe(sass({
+            style: 'expanded',
+            quiet: true,
+            cacheLocation: '.sass-cache'
+        }))
         .pipe(sass())
         .pipe(autoprefixer('last 1 version'))
-        .pipe(minifycss({ keepSpecialComments: 0 }))
-        .pipe(rename('style.css'))
-        .pipe(gulp.dest('source/css'));
+        .pipe(minifycss({
+            keepSpecialComments: 0
+        }))
+        .pipe(rename('styles.ejs'))
+        .pipe(gulp.dest('layout/_partial/'));
 });
 gulp.task('css', function () {
     runsequence(
@@ -61,14 +66,18 @@ gulp.task('js', function () {
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(header(banner, { pkg: pkg }))
+        .pipe(header(banner, {
+            pkg: pkg
+        }))
         .pipe(gulp.dest('source/js'));
 });
 gulp.task('concatJs', function () {
     return gulp.src(files.js)
         .pipe(concat('concat_scripts.js'))
         .pipe(gulp.dest('source/js'))
-        .pipe(header(banner, { pkg: pkg }))
+        .pipe(header(banner, {
+            pkg: pkg
+        }))
         .pipe(gulp.dest('source/js'));
 });
 // Images

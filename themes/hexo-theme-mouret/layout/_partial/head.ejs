@@ -1,8 +1,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <%- css('css/style.css') %>
-    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
     <title><%- config.title %></title>
     <% if (theme.rss){ %>
         <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
@@ -10,4 +8,7 @@
     <% if (theme.favicon){ %>
         <link rel="icon" href="<%- theme.favicon %>">
     <% } %>
+    <style>
+        <%- partial('_partial/styles') %>
+    </style>
 </head>
