@@ -1,0 +1,19 @@
+footer {
+  clip-path: polygon(0 0, 100% 2.5em, 100% 100%, 0 100%);
+  background-color: #eee;
+  height: 9rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  a {
+    color: #4ab4dc;
+  }
+  p {
+    margin-right: 1rem;
+  }
+}

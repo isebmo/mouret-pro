@@ -1,0 +1,33 @@
+.articles-item {
+    display: block;
+    padding: 1rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .04);
+    transition: box-shadow .3s ease-in-out;
+    background-color: #fff;
+    border-radius: 2px;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+#posts {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-post {
+    text-align: justify;
+}
+
+.blog-post-title {
+    border-bottom: 1px solid #ff8d00;
+    color: #ff8d00;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.blog-post-meta {
+    color: grey;
+    font-style: italic;
+}

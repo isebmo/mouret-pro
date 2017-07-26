@@ -1,0 +1,11 @@
+body {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.2rem;
+    position: relative; // height: 100%;
+    section {
+        padding: 1rem 1rem 12rem 1rem;
+        margin: 0rem auto;
+        width: calc(100% - 2rem);
+        max-width: 600px;
+    }
+}
