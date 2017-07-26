@@ -10,13 +10,16 @@
       color: white;
       text-decoration: none;
     }
-    li.active,
-    {
-      border-bottom: solid 1px orange;
-    }
-    li.logo {
-      display: flex;
-      align-items: center;
+    li {
+      border-bottom: solid 1px rgba(255, 165, 0, 0);
+      .active,
+      &:hover {
+        border-bottom: solid 1px orange;
+      }
+      &.logo {
+        display: flex;
+        align-items: center;
+      }
     }
   }
 }
