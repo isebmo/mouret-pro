@@ -12,11 +12,11 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mouret.pro/
+url: https://mouret.pro/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
-
+  
 # Directory
 source_dir: source
 public_dir: public
@@ -69,3 +69,8 @@ theme: hexo-theme-mouret
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
