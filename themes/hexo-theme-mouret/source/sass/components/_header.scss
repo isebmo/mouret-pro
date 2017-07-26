@@ -6,7 +6,7 @@ header {
         text-align: center;
         background-color: darkred;
         clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3em), 0 100%);
-        background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(../images/header.jpg) bottom/cover;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(/images/header.jpg) bottom/cover;
     }
     .promo {
         padding: 3rem;
