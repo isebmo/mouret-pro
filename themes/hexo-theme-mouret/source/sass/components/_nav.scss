@@ -10,8 +10,13 @@
       color: white;
       text-decoration: none;
     }
-    li.active {
+    li.active,
+    {
       border-bottom: solid 1px orange;
+    }
+    li.logo {
+      display: flex;
+      align-items: center;
     }
   }
 }
