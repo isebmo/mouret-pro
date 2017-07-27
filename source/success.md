@@ -1,7 +1,7 @@
 ---
 title: Formulaire soumis avec succés
 ---
-Formulaire soumis avec succés
+Merci !
 
 ![Wait and see](/images/wait.jpg)
 
