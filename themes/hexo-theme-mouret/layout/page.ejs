@@ -1,2 +1,15 @@
-page
+<section class="blog-post">
+    <!-- Title -->
+    <h2 class="blog-post-title">
+            <%- page.title %>
+    </h2>
+    <!-- Date and Author -->
+    <p class="blog-post-meta">
+        <% var d = moment(); %>
+        <%= d.format(config.date_format) %>
+    </p>
+    <!-- Content -->
+    <%- page.content %>
+        
+</section>
 
