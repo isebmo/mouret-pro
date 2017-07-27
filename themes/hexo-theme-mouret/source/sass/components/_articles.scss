@@ -16,6 +16,9 @@
 
 .blog-post {
     text-align: justify;
+    img {
+        max-width: 100%;
+    }
 }
 
 .blog-post-title {
