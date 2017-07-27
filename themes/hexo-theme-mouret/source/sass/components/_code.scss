@@ -1,0 +1,18 @@
+figure.highlight {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .04);
+    margin: 0;
+    pre {
+        font-family: "Courier New"!important;
+        font-size: 95%;
+    }
+    .code {
+        pre {
+            color: #5d5d5d;
+        }
+    }
+    .gutter {
+        border-right: 1px solid rgba(255, 165, 0, 0.22);
+        color: orange;
+    }
+}
