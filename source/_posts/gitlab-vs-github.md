@@ -8,7 +8,7 @@ Gitlab et Github sont des plateformes qui permettent de gérer le système de ve
 
 J'ai longtemps hésité à utiliser l'une ou l'autre des plateformes, chacun ayant leurs avantages et inconvénients. Après de long mois passés sur Gitlab, je suis passé sur Github et je vous explique pourquoi.
 
-# Gitlab, la solution Open Source
+## Gitlab, la solution Open Source
 Ce que j'aime chez Gitlab c'est le format Open Source. Si vous voulez être maître de ce qui est fait avec vos données autant privilégier une solution libre. 
 
 La force de Gitlab c'est l'auto hébergement, vous pouvez installer la solution complète sur vos propres serveurs, ce qui en fait une solution idéale pour les grandes entreprises. Pourquoi les "grandes" ? parce qu'une solution cloud hébergée par sa propre entreprise n'est conseillée d'un point de vue financié que pour les "grandes". Les petites entreprises préféreront déléguer la gestion des solutions cloud à des sociétés externes.
@@ -27,7 +27,7 @@ Finalement le seul manque de Gitlab en comparaison à Github est le manque de po
 
 L'interface Web est un peu plus brouillone que celle de Github mais elle est aussi plus facilement paramétrable. J'ai ressenti de moins bonnes performances que celle de Github.
 
-# Github, Git pour tous
+## Github, Git pour tous
 Github est le plus grand hébergeur de projets open source au monde. C'est la référence quand il s'agit de chercher les dernier framework à la mode et quasiment tous les services associés sont compatible avec lui.
 
 La force de Github c'est sa popularité qui en fait un véritable Hub et presque un réseau social à part entière ! Et ça n'a l'air de rien mais j'aime l'idée de pouvoir avoir des projets référencés et accessibles à la communauté. Github m'a largement aidé à découvrir des projets, des langages de programmation et quoi de plus normal que de mettre à disposition mes projets afin que les autres puissent s'en inspirer.
@@ -46,7 +46,7 @@ Ce que j'aime beaucoup moi qui suis friand de statistiques c'est de voir l'activ
 ![github activité](https://s3.eu-central-1.amazonaws.com/mouretpro/github-activity.PNG)
 Je trouve personnellement que c'est une motivation pour développer quand on voit une longue période d'inactivité.
 
-# Conclusion
+## Conclusion
 En conclusion, vous pouvez voir que Gitlab fait tout mieux que Github mais ce dernier est extrêmement populaire et c'est difficle de s'en passer.
 Finalement on pourrait dire que Github est à Git ce que Google est la recherche.
 
