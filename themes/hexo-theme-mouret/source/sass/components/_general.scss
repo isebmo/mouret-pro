@@ -3,6 +3,9 @@ body {
     font-family: 'Palatino Linotype', serif;
     font-size: 1.2rem;
     position: relative; // height: 100%;
+    p {
+        line-height: 1.9rem;
+    }
     section {
         padding: 1rem 1rem 12rem 1rem;
         margin: 0rem auto;
