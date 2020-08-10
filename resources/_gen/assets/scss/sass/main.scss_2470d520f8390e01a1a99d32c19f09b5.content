@@ -1,0 +1,17 @@
+#content {
+  h2 {
+    font-size: 1.875rem;
+    text-decoration: underline;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  p {
+    --bg-opacity: 1;
+    background-color: #dd6b20;
+    background-color: rgba(221, 107, 32, var(--bg-opacity));
+    @media (min-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+}
+ 

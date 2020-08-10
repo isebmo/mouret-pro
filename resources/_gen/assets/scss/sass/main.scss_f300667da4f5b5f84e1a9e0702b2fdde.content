@@ -1,0 +1,6 @@
+#content h2 {
+  @apply text-3xl underline mt-3 mb-3; }
+
+@screen md {
+  #content p {
+    @apply text-xl; } }

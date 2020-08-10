@@ -1,0 +1,31 @@
+{{ $mdurl := findRE `\((.*)\)` .Params.fimg}}
+{{ $featured_image := (trim .Params.fimg "/") | relURL }}
+
+{{ if gt (len $mdurl) 0}}
+{{ $mdurl = replace (index $mdurl 0) "(" ""}}
+{{ $mdurl = replace $mdurl ")" ""}}
+{{ $featured_image = print .Permalink (trim $mdurl "") }}
+{{end}}
+
+<article class="md:flex rounded-md overflow-hidden shadow-lg md:m-3 mt-3">
+    <a class="md:w-1/2  " href="{{.Permalink}}">
+        <img class="object-cover" src="{{ $featured_image }}" class="img" alt="{{ .Title }}">
+    </a>
+    <section class="md:w-1/2 px-6 py-4 flex flex-col">
+        <div class="flex-1">
+            <h1 class="mb-2 hover:text-green-500  leading-tight"><a href="{{.Permalink}}">{{ .Title }}</a>
+            </h1>
+            {{partial "date" .}}
+            <summary class="text-gray-700 text-xl">{{ .Description }}</summary>
+        </div>
+        <ul class=" flex-none py-4">
+            {{with .Params.categories}}
+            {{range sort . "value" "asc"}}
+            <li
+                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 hover:text-green-500">
+                <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}">{{.}}<a /></li>
+            {{end}}
+            {{end}}
+        </ul>
+    </section>
+</article>

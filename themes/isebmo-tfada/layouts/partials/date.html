@@ -1,0 +1,3 @@
+{{if ne (.Date.Format "2006") "0001" }}
+<time class="text-sm text-gray-600 italic pb-2 inline-block">Article publié le {{.Date.Format "02-01-2006"}}</time>
+{{end}}

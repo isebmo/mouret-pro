@@ -1,0 +1,15 @@
+    {{ $prev := 3000}}
+    {{range .Site.RegularPages}}
+        
+      {{if .Date}}
+        {{if gt $prev (.Date.Format "2006")}}
+            {{ if ne $prev 3000}}
+                
+            {{ end }}
+        <h2>{{ .Date.Format "2006" }} </h2>
+        
+        {{end}}
+        {{partial "preview" .}}
+        {{ $prev = .Date.Format "2006"}}
+      {{end}}
+    {{end}}

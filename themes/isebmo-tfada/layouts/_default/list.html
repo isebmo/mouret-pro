@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse 5 }}
+<ul>
+  {{ range $paginator.Pages }}
+  <li>{{partial "preview-img" .}}</li>
+  {{ end }}
+</ul>
+
+{{ partial "pagination" . }}
+{{ end }}
