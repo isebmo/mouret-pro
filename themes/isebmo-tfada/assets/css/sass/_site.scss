@@ -19,21 +19,27 @@ h3 {
     }
 }
 
-p {
-    a {
-        @apply bg-green-200 underline;
-    }
 
+#article-single {
+    a {
+        @apply bg-green-200;
+        &:hover {
+            @apply underline;
+        }
+    }
+    
     strong {
         @apply text-green-500;
     }
-
+    
     em {
         @apply text-green-500;
     }
-}
 
-#article-single {
+    ul {
+        @apply list-disc pl-10;
+    }
+
     @apply mr-2 ml-2;
 
     p {

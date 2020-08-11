@@ -28,15 +28,13 @@ disqusShortname = "mouretpro"
 [menu]
   [[menu.main]]
     identifier = "about"
-    name = "À Propos"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
+    name = "Mes outils 🛠"
+    url = "/tools/"
     weight = 0
 
   [[menu.main]]
     identifier = "post"
-    name = "Articles"
+    name = "Articles 📚"
     post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
     url = "/post/"
     weight = 1

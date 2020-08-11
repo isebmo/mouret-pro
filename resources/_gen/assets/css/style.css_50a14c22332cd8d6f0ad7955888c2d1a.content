@@ -661,28 +661,36 @@ h3 {
   }
 }
 
-p a {
-  --bg-opacity: 1;
-  background-color: #c6f6d5;
-  background-color: rgba(198, 246, 213, var(--bg-opacity));
-  text-decoration: underline;
-}
-
-p strong {
-  --text-opacity: 1;
-  color: #48bb78;
-  color: rgba(72, 187, 120, var(--text-opacity));
-}
-
-p em {
-  --text-opacity: 1;
-  color: #48bb78;
-  color: rgba(72, 187, 120, var(--text-opacity));
-}
-
 #article-single {
   margin-right: 0.5rem;
   margin-left: 0.5rem;
+}
+
+#article-single a {
+  --bg-opacity: 1;
+  background-color: #c6f6d5;
+  background-color: rgba(198, 246, 213, var(--bg-opacity));
+}
+
+#article-single a:hover {
+  text-decoration: underline;
+}
+
+#article-single strong {
+  --text-opacity: 1;
+  color: #48bb78;
+  color: rgba(72, 187, 120, var(--text-opacity));
+}
+
+#article-single em {
+  --text-opacity: 1;
+  color: #48bb78;
+  color: rgba(72, 187, 120, var(--text-opacity));
+}
+
+#article-single ul {
+  list-style-type: disc;
+  padding-left: 2.5rem;
 }
 
 #article-single p {
