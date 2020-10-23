@@ -1,0 +1,3 @@
+{
+  "list": [{{ range $.Site.Taxonomies.categories.ByCount }}"{{ .Name }}",{{ end }}]
+}
